@@ -234,3 +234,24 @@ font-size:20px;
 .contact-box p{
     margin-bottom:15px;
 }
+.star{
+    position: fixed;
+    top: -50px;
+    font-size: 25px;
+    pointer-events: none;
+    animation: fall linear;
+    z-index: 9999;
+}
+
+@keyframes fall{
+
+    from{
+        transform: translateY(0);
+    }
+
+    to{
+        transform: translateY(110vh);
+    }
+
+}
+
