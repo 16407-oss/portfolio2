@@ -254,4 +254,13 @@ font-size:20px;
     }
 
 }
-
+.profile{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:5px solid white;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    display:block;
+    margin:20px auto;
+    object-fit:cover;
+}
