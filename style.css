@@ -165,3 +165,18 @@ footer{
     color:#ff69b4;
 
 }
+.skill-list{
+
+margin-top:20px;
+
+list-style:none;
+
+}
+
+.skill-list li{
+
+padding:10px;
+
+font-size:20px;
+
+}
